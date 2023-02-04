@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"prettier": "prettier --write --ignore-unknown src/**/*"
+		"prettier": "prettier --write --ignore-unknown src"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.4.9",
