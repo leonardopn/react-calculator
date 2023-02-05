@@ -1,3 +1,10 @@
+import { Container } from "@chakra-ui/layout";
+import { Calculator } from "../../components/Calculator";
+
 export function App() {
-	return <div className="App">Olá mundo!</div>;
+	return (
+		<Container display="flex" minH="100vh" justifyContent="center" alignItems="center">
+			<Calculator></Calculator>
+		</Container>
+	);
 }
